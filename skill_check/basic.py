@@ -20,7 +20,7 @@ def print_hoge():
 # 100から1000までの偶数のみを表示してねぇ
 def print_even_from_100_to_1000():
     for i in range(100, 1000):
-        if i % 2 == 0: print(str(i) + " ")
+        if i % 2 == 0: print(str(i), end=" ")
 
 if __name__ == '__main__':
     print_self_infomation()
