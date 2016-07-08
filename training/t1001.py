@@ -1,9 +1,9 @@
 # 与えられた2つのパラメータの合計を2倍したものが60を超えているかどうか
 def check_sum_2times_over_60(par1, par2):
-    return (par1 + par2) * 2 > 60
+    return (par1 + par2) * 2 >= 60
 
 # 与えられた金額に消費税率8％を含めた値が5000を超えているかどうか
-def tax_inclued(cost):
+def tax_include(cost):
     return (cost * 1.08) > 5000
 
 # 与えられたスコアを80以上なら'A'、60以上80未満なら'B'、45以上60未満なら'C'、45未満は'F'と返す
@@ -30,7 +30,7 @@ def power_of_two(num):
 
 if __name__ == '__main__':
     print(check_sum_2times_over_60(25, 6))
-    print(tax_inclued(100))
+    print(tax_include(100))
     print(judge_rank(30))
     print(judge_rank(50))
     print(judge_rank(65))
