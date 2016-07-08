@@ -14,7 +14,7 @@ def judge_rank(score):
     else: return 'F'
 
 # 与えられた数値の階乗を返す。ただし再帰は使用禁止
-def fractorial(num):
+def factorial(num):
     sum = 1
     for i in range(0, num):
         sum *= i + 1
@@ -35,5 +35,5 @@ if __name__ == '__main__':
     print(judge_rank(50))
     print(judge_rank(65))
     print(judge_rank(80))
-    print(fractorial(10))
+    print(factorial(10))
     print(power_of_two(8))
