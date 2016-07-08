@@ -1,6 +1,6 @@
 # 与えられた2つのパラメータの合計を2倍したものが60を超えているかどうか
 def check_sum_2times_over_60(par1, par2):
-    return (par1 + par2) * 2 >= 60
+    return (par1 + par2) * 2 > 60
 
 # 与えられた金額に消費税率8％を含めた値が5000を超えているかどうか
 def tax_include(cost):
